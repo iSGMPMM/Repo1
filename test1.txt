@@ -1,1 +1,36 @@
-chapter 1
+Git and GitHub Begineer Tutorial 2
+======================
+
+Step 1 : Check if git is already installed.
+	terminal - git - -version
+Step 2 : Download and install git 
+	https://git-scm.com/download/
+Step 3 : Signup and create a account on GitHub
+	https://github.com/
+Step 4 : Add your github email and username to git
+	git config --global user.email "yourGitHub@email.com"
+	git config --global user.name "yourGitHubusername"
+Step 5 : Add file/folders to git - tracking
+Step 6 : Commands
+	- terminal - goto the location of the folder/project
+	- git init
+	- git status
+	- git add
+	- git commit -m "......"
+	- git remote add origin "location of remote repo"
+	- git push -u origin master
+
+How to Create Push & Pull a Docker image from Docker Hub
+## Goal: In this video you will learn the following.
+	1. Pull a Docker image from Docker Hub
+	2. Make Changes to the image
+	3. Push Your Changed image Back to Docker Hub
+
+## Pull The Ubuntu images from Docker Hub
+	This command will search for a local image and if one does not exist it 
+	will pull remotely from docker hub.
+	docker run -it -d ubuntu
+
+## List Container Activity
+	Confirm we have run our Ubuntu container.
+	docker ps-a
